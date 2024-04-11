@@ -1,0 +1,12 @@
+* {
+    margin:0;
+  /*  background-color: #5f5858;*/
+    
+}
+.container{
+    display:flexbox;
+}
+.significado {
+    display:grid;
+
+}
