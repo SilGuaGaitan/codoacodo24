@@ -1,12 +1,11 @@
-* {
-    margin:0;
-  /*  background-color: #5f5858;*/
-    
-}
-.container{
-    display:flexbox;
-}
-.significado {
-    display:grid;
+.body {
+    margin: 10px;
+    padding: 10px;
+  }
 
+.nav-link a{
+  text-decoration: none;
+}
+.navbarNavDropdown{
+  justify-content: right;
 }

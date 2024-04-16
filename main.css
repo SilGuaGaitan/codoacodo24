@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Paleta de colores: #008000;
+                        #006200;
+                        #004400;
+                        #002600;
+                        #000800*/
+  .navbar {
+    background-color: #000800;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-toggler{
+    background: color #002600;;
+  }
+  
+  .navbar-toggler:focus{
+    color: #008000;
+  }
+  .active {
+    font-weight: 600;
+  }
+  
+ 
