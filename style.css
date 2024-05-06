@@ -1,12 +1,33 @@
-.nav-bar-brand{
-  margin: 5px;
-  justify-content: center;
-  text-align: center;
+.barra{
+  display:flex;
+  
+
+
+}
+.navbar-nav {
+  /*background-color: #000800;*/
+  font-size: 1.2rem;
+  text-align: right;
 }
 
-.nav-link a{
-  text-decoration: none;
+#navbarNavDropdown a{
+  display:flex;
+  color: #008000;
+  
 }
-.navbarNavDropdown{
-  justify-content: right;
+/*.navbar-nav{
+  align-items: end;
+}
+/*.navbar-toggler{
+  background: color #002600;;
+}*/
+
+/*.navbar-toggler:focus{
+  color: #004400;
+}
+
+.nav-bar-brand{
+  margin: 0px;
+  justify-content: center;
+  text-align: center;
 }

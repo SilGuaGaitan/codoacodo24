@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="16x16" href="./Imagenes/Tarot/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Esmeralda</title>
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
+    <header class="barra">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="./Imagenes/logo.png" alt="" width="160" height="80" class="d-inline-block align-text-end">
-          </a>
-         
+            <img src="./Imagenes/logo.png" alt="" width="180" height="90" class="d-inline-block align-text-end">
+          </a>   
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button> 
           <div class="collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-               <a class="navbar-link active" href="./index.html">Inicio</a>
+               <a class="nav-link " href="./index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="./menu.html">Historia</a>
@@ -31,21 +35,21 @@
               <li class="nav-item">
                 <a class="nav-link" href="./equipo.html">¿Quienes somos?</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+              </li>     
             </ul>
-          </div>
           </div>
         </div>
       </nav>
-
-     
     </header>
-    <br><hr>
-    <main>
+    <main class="cuerpo">
+    <div class="container">
       <h1>Tarot</h1>
-      <div class="container">
-        
+      <div class="parte">
           <h2>¿Qué es el tarot?</h2>
           <img src="./Imagenes/Tarot/bruja3.jpg" alt="bruja"/>
+          <div>
           <p>
             El tarot es una herramienta o método de adivinación, que consiste en utilizar una baraja — compuesta
             por un total de 78 cartas si la utilizamos al completo o solo 22 cartas si nos centramos en los arcanos
@@ -62,9 +66,10 @@
             tendrás que combinar sus significados para elaborar una respuesta coherente para la persona que te consulta. 
             Esta es la razón por la que echar las cartas requiere tanta práctica y constancia.
           </p>
-          
-        </article>
-        <article>
+          </div> 
+        </div>
+      <article>
+          <div>
           <h2>¿Qué preguntas puedes hacer a las cartas de tarot?  </h2>
           <img src="./Imagenes/Tarot/carta.jpg" alt="Lorem Picsum"/>
           <p>
@@ -80,9 +85,9 @@
           antes de que suceda.</i> Así que si quieres recurrir al tarot antes de tomar una decisión importante o 
           saber qué serie de televisión es la próxima que deberías ver, esto es lo que debes saber.
           </p>
-        
+        </div>
         </article>
-       
+        <div>
         <article>
           <h2>¿Cuántas cartas del tarot hay?</h2>
           <img src="./Imagenes/Tarot/tarot-991041_1280.jpg " alt="Lorem Picsum"/>
@@ -121,11 +126,11 @@
           </p>
           
         </article>
-       
-      </div>
+       </div>
+    </div>
+
     </main>
-    <footer>
-      <br><hr>
+    <footer class="pie">
       <div>
         <ul>
           <li><a href="#">Facebook</a></li>
@@ -135,15 +140,10 @@
       </div>
       <address>
         Escribe tus sugeriencias a:<a href="mailto:webmaster@example.com">Esmeralda</a>.<br />
-        Ubicados:<br />
-        Balcarce 78. Monserrat<br />
-        Argentina
+    
         Derechos reservados &copy; 2024<br />
       </address>
-      <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8461714984496!2d-58.3728473603966!3d-34.60805115783869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses-419!2sar!4v1713239880534!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         
-      </div>
+    
     </footer>
   </body>
 </html>
