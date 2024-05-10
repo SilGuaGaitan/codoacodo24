@@ -1,43 +1,67 @@
-.barra{
-  display:flex;
-  
-
+.barra {
+  display: flex;
 
 }
+
 .navbar-nav {
   /*background-color: #000800;*/
-  font-size: 1.2rem;
-  text-align: right;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
-#navbarNavDropdown a{
-  display:flex;
+#navbarNavDropdown a {
+  display: flex;
   color: #008000;
-  text-decoration: none;
-  
+  justify-items: right;
+
 }
-.parrafo{
+.nav-link:hover{
+  color:rgb(181, 246, 181);
+  text-decoration: underline; /* Aplica subrayado */
+  font-weight: bold; /* Aplica negrita */
+  }
+
+.parrafo {
   margin-top: 5px;
   text-align: center;
   font-size: 20px;
 }
-#foto{
+
+#foto {
   margin-top: 10px;
   text-align: end;
 }
-/*.navbar-nav{
-  align-items: end;
+.mapa{
+  margin: 100px;
+  border-style: solid;
+  border: 5px #008000;
 }
-/*.navbar-toggler{
-  background: color #002600;;
-}*/
+.pie{
+  display: inline;
+  margin:1rem;
+  align-content: space-around;
+  flex-flow: column wrap;
+  width:200 px;
 
-/*.navbar-toggler:focus{
-  color: #004400;
 }
-
-.nav-bar-brand{
-  margin: 0px;
+.redes {
+  display: flex;
+   /* Centra los elementos horizontalmente */
+  margin-bottom: 5px; /*para separar los logos del copyright */
+  font-size: 50px;
   justify-content: center;
-  text-align: center;
+  }
+.redes  a{
+  margin:20px 20px ; /*para que haya espacio entre los logos*/
 }
+.redes img{
+  margin:0 700px 0 0;
+  align-items: start;
+}
+.item-copyright p{
+  display:flex;
+  justify-content: center;
+}
+
+
