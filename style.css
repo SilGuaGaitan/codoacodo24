@@ -63,5 +63,20 @@
   display:flex;
   justify-content: center;
 }
+.container-grid{
+  display:grid;
+  margin: 30px;
+  width: 1200px;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+  justify-content: space-between;
 
+}
+.container-grid div{
+  text-align: center;
+    border:5px solid white;
+}
+.imagen{
+  text-justify: auto;
+}
 
