@@ -74,9 +74,15 @@
 }
 .container-grid div{
   text-align: center;
-    border:5px solid white;
+  border:5px solid white;
+  border-radius: 20px;
 }
-.imagen{
-  text-justify: auto;
+.container-grid img{
+   width: 100%;
+  height: 300px;
+}
+ 
+.container-grid p{
+  margin:1rem;
 }
 
