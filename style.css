@@ -1,12 +1,16 @@
 .barra {
   display: flex;
-
+  padding:0;
 }
 
 .navbar-nav {
   /*background-color: #000800;*/
   font-size: 1.5rem;
   display: flex;
+  justify-content: flex-end;
+}
+#navbarNavDropdown{
+  margin-right: 20px;
   justify-content: flex-end;
 }
 
@@ -22,10 +26,30 @@
   font-weight: bold; /* Aplica negrita */
   }
 
+.navbar.navbar-expand-lg.navbar-dark.bg-dark{ /*saca el borde(padding al nevegador)*/
+  padding:0;
+    
+}  
+
+.navbar-brand{ /* Margen del logo */
+  margin: 0px 15px;
+}
+
+.container-fluid{ /*saca el borde de costado del navegador*/
+  padding:0;
+}
+
 .parrafo {
   margin-top: 5px;
   text-align: center;
   font-size: 20px;
+}
+.item-carta img {
+  transition: transform 0.3s ease; /* Agrega transición lenta para el cambio de tamaño  */
+}
+
+.item-carta img:hover {
+  transform: scale(1.1); /*la imagen se agranda un 10% */
 }
 
 #foto {
@@ -66,7 +90,7 @@
 .container-grid{
   display:grid;
   margin: 30px;
-  width: 1200px;
+  width: 95%;
   grid-template-columns: auto auto;
   grid-gap: 30px;
   justify-content: space-between;
