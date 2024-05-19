@@ -1,8 +1,8 @@
-.barra {
+/*.barra {
   display: flex;
   padding:0;
   
-}
+}*/
 
 .navbar-nav {
   /*background-color: #000800;*/
@@ -28,19 +28,25 @@
   font-weight: bold; /* Aplica negrita */
   }
 
-.navbar.navbar-expand-lg.navbar-dark.bg-dark{ /*saca el borde(padding al navegador)*/
+.navbar.navbar-expand-lg.navbar-dark.bg-dark, .pie{ /*saca el borde(padding al navegador)*/
   padding:0;
   background-image: url("./Imagenes/Tarot/galaxia.jpg");
-    
+  display: flex;
+  /*margin:1rem;*/
+  /*align-content: space-between;*/
+  flex-flow: column wrap;
+  width:100%;
+ background-image: url("./Imagenes/Tarot/galaxia.jpg");
+    justify-content: flex-end;
 }  
 
 .navbar-brand{ /* Margen del logo */
   margin: 0px 15px;
 }
 
-.container-fluid{ /*saca el borde de costado del navegador*/
+/*.container-fluid{ 
   padding:0;
-}
+}*/
 
 .parrafo {
   margin-top: 5px;
@@ -66,14 +72,7 @@
   border-style: solid;
   border: 5px #008000;
 }
-.pie{
-  display: flex;
-  /*margin:1rem;*/
-  align-content: space-around;
-  flex-flow: column wrap;
-  width:100%;
- background-image: url("./Imagenes/Tarot/galaxia.jpg");
-}
+
 .redes {
   display: flex;
    /* Centra los elementos horizontalmente */
