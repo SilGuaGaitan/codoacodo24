@@ -1,0 +1,8 @@
+.container-grid-menu{
+    display:grid;
+    margin: 30px;
+    width: 95%;
+    /*grid-template-columns: auto;*/
+    grid-gap: 30px;
+    justify-content: space-between;
+}

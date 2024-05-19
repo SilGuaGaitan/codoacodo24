@@ -1,17 +1,17 @@
 .barra {
   display: flex;
-  padding:0;
+  padding:0
 }
 
 .navbar-nav {
   /*background-color: #000800;*/
   font-size: 1.5rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end
 }
 #navbarNavDropdown{
   margin-right: 20px;
-  justify-content: flex-end;
+  justify-content: flex-end
 }
 
 #navbarNavDropdown a {
@@ -26,7 +26,7 @@
   font-weight: bold; /* Aplica negrita */
   }
 
-.navbar.navbar-expand-lg.navbar-dark.bg-dark{ /*saca el borde(padding al nevegador)*/
+.navbar.navbar-expand-lg.navbar-dark.bg-dark{ /*saca el borde(padding al navegador)*/
   padding:0;
     
 }  
@@ -44,12 +44,14 @@
   text-align: center;
   font-size: 20px;
 }
+
 .item-carta img {
   transition: transform 0.3s ease; /* Agrega transición lenta para el cambio de tamaño  */
 }
 
 .item-carta img:hover {
-  transform: scale(1.1); /*la imagen se agranda un 10% */
+  transform: scale(1.05); /*la imagen se agranda un 5% */
+   box-shadow: 10px 13px 14px grey;
 }
 
 #foto {
@@ -62,7 +64,7 @@
   border: 5px #008000;
 }
 .pie{
-  display: inline;
+  display: flex;
   margin:1rem;
   align-content: space-around;
   flex-flow: column wrap;
@@ -96,6 +98,7 @@
   justify-content: space-between;
 
 }
+
 .container-grid div{
   text-align: center;
   border:5px solid white;
