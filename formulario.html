@@ -21,7 +21,8 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-          </button>           
+          </button> 
+          
           <div class="collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -44,33 +45,47 @@
         </div>
       </nav>
     </header>
-    <main class="cuerpo">
-        <div class="container">
-            <h1 class="subtitulo">Donde nos encontramos</h1>
-                <article class="row">
-                <div class="col-lg-6" id="foto">
-                    <figure class="text-center">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8461714984496!2d-58.3728473603966!3d-34.60805115783869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses-419!2sar!4v1713239880534!5m2!1ses-419!2sar" width="400" height="300" style="border: 2px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <figcaption> </figcaption>
-                    </figure>
-                </div>   
-                  <div class="col-lg-6">
-                     <p class="parrafo"> Balcarce 78. Monserrat<br />
-                      Argentina</p>
-                    </p>
-                  </div>
-                  </article>  
-                  <div class="container">
-                    
+
+
+<main class="home">
+    <div class="container">
+      
+      <form action="" class= "form" id="step-1">
+        
+        <header  class="header">
+          <h3>Formulario de Contacto</h3>
+        </header>
+        <label for="nombre" class="form_label">Nombre:</label>
+        <input type="text" class="form_input" id="nombre" name="nombre" required>
+        <label for="apellido" class="form_label">Apellido:</label>
+        <input type="text" class="form_input"id="apellido" name="apellido" required>
+        <label for="celular" class="form_label">Celular:</label>
+        <input type="text" class="form_input"id="celular" name="celular" required>
+        <label for="email" class="form_label">Email:</label>
+        <input type="email"class="form_input" id="email" name="email" required>
+        <label for="textarea" class="form_label">Comentarios:</label>
+        <textarea name="textarea"class="form_text" id="textarea" placeholder="Te leemos..."></textarea>
+
+       <button type="button"id="button" class="button">Enviar</button>
+       
+      </form>
+    </div>
     
-                    <a href="./formulario.html">Contactanos</a>
-                  
-                  
-                  </div>
-          </div>
-      </main>
-   <footer>
-    <div class="pie">   
+    <div class="container-2">
+    <form id="step-2"> 
+      <div class="contenedor">
+        <span>Resumen:</span>
+        <a href="#"><i class="las la-print"  id="btn_print"></i></a>
+        <button type="button_c"id="button_c" class="button_c">Cerrar</button>
+      </div>
+      <div id="summary"> 
+      </div>
+      
+    </form>
+    </div>
+  </main>
+  <footer >
+    <div class="pie" >
       <div class="redes">
       <img src="./Imagenes/logo.png" width="150px" id="logo" title="Volver arriba">
         <a href="www.facebook.com"><i class='bx bxl-facebook-circle'></i></a>
@@ -82,8 +97,7 @@
         <p> Copyright &copy; 2024 Codo a Codo. Todos los derechos reservados. Diseñado por Grupo 25.</p>
       </div>
       </div>
-    </footer>
-    <script src="./formulario.js"></script>
-    <script src="./script.js"></script>
-    </body>
-  </html>
+  </footer>
+  <script src="./formulario.js"></script>
+</body>
+</html>

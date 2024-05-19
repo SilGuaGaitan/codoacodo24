@@ -1,13 +1,15 @@
 .barra {
   display: flex;
-  padding:0
+  padding:0;
+  
 }
 
 .navbar-nav {
   /*background-color: #000800;*/
   font-size: 1.5rem;
   display: flex;
-  justify-content: flex-end
+  justify-content: flex-end;
+  
 }
 #navbarNavDropdown{
   margin-right: 20px;
@@ -28,6 +30,7 @@
 
 .navbar.navbar-expand-lg.navbar-dark.bg-dark{ /*saca el borde(padding al navegador)*/
   padding:0;
+  background-image: url("./Imagenes/Tarot/galaxia.jpg");
     
 }  
 
@@ -65,11 +68,11 @@
 }
 .pie{
   display: flex;
-  margin:1rem;
+  /*margin:1rem;*/
   align-content: space-around;
   flex-flow: column wrap;
-  width:200 px;
-
+  width:100%;
+ background-image: url("./Imagenes/Tarot/galaxia.jpg");
 }
 .redes {
   display: flex;
