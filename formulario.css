@@ -1,0 +1,101 @@
+.home{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+/*    font-family:'Monserrat';*/
+    font-size: 1rem;}
+body{    
+    background-color: #f1f1f1;
+  
+}
+.form {
+    background-color:#f1f1f1;
+    width: 40%;
+    min-width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #004400;
+    box-shadow: 10px 20px 20px rgba(0,1,0,.5);
+  }
+.form_input{
+    width: 100%;
+    height: 25px;
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.form_text{
+    width: 100%;
+}
+h3{
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    background-color: #006200;
+    color: #fff;
+  
+}
+.form_label{
+    display:block;
+    font-size:1rem;
+    font-weight: 300;
+    color:#000800;
+}  
+
+  
+.button{
+    width: 100%;
+    height: 30px;
+    background: #006200;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+} 
+
+.button_c{
+    margin:10px;
+    float:right;
+    width: 50px;
+    height: 30px;
+    background: #006200;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 5rem;
+} 
+
+#btn_print{
+    border-style: solid;
+    float: right;
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 5rem;
+}
+
+  
+  
+#step-2 {
+    display: none;
+
+}
+#step-2 span{
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight:700;
+
+}
+  
+
+#summary {
+    display: flexbox;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
