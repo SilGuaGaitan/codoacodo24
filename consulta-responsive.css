@@ -1,0 +1,66 @@
+@media screen and (max-width: 425px) {
+    /* Dentro de tu consulta-responsive.css */
+ 
+ .parrafo{
+     font-size: 15px;
+ }
+ .container-grid {
+     display: grid;
+     margin: 30px auto; /* Ajusta el margen vertical */
+     width: 95%;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta el tamaño de las columnas según el espacio disponible */
+     grid-gap: 30px;
+   }
+   
+   .container-grid div {
+     text-align: center;
+     border: 5px solid white;
+     border-radius: 20px;
+     overflow: hidden; /* Evita que el contenido se desborde del contenedor */
+   }
+   
+   .container-grid img {
+     width: 100%;
+     height: auto; /* Ajusta la altura automáticamente */
+   }
+   
+   .container-grid p {
+     margin: 1rem;
+   }
+   
+   .titulo{
+     font-size: 60px;
+   }
+ 
+   .navbar.navbar-expand-lg.navbar-dark.bg-dark{ 
+     padding:0;
+     background-image: url("./Imagenes/Tarot/galaxia.jpg");
+     display: flex;
+     flex-direction: column;
+   }  
+   .redes {
+     display: flex;
+     flex-direction: row;
+     justify-content: center; /* Centra verticalmente los iconos */
+     align-items: center; /* Centra horizontalmente los iconos */
+     margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+   }
+   .redes  a{
+     margin:5px 5px ; /*para que haya espacio entre los logos*/
+     font-size: 28px; 
+   }
+ 
+   .redes img{
+     margin:0 0 0 0;
+     justify-content: center;
+   }
+   .item-copyright p{
+     display:flex;
+     justify-content:center;
+     align-content:center;
+     font-size: 10px;
+     
+   }
+ 
+   }
+   
