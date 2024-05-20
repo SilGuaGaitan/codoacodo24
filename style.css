@@ -37,7 +37,8 @@
 }
 
 .parrafo {
-  margin-top: 5px;
+  margin:5px;
+  padding: 5px;
   text-align: center;
   font-size: 20px;
 }
@@ -95,6 +96,7 @@
   grid-gap: 30px;
   justify-content: space-between;
 }
+
 
 .container-grid div{
   text-align: center;

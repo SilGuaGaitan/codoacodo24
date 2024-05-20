@@ -1,3 +1,4 @@
+/*Esta es la hoja de estilo de la pagina responsive, pertenence HISTORIA(menu.html)*/
 /*CELULAR*/
 @media screen and (max-width: 425px) {
   
@@ -131,7 +132,7 @@
     /* Dentro de tu consulta-responsive.css */
  
  .parrafo{
-     font-size: 15px;
+     font-size: 25px;
  }
  .container-grid {
      display: grid;

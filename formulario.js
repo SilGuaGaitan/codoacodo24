@@ -15,11 +15,14 @@ button.addEventListener("click", function() {
   let celular = document.querySelector("#celular").value;
   let email = document.querySelector("#email").value;
   let comentarios = document.querySelector("#textarea").value;
+  let motivoConsulta = document.querySelector('input[name="motivo"]:checked');
+  let motivoConsultaValue = motivoConsulta ? motivoConsulta.value : "";
   // mostrar resumen en el segundo paso
   summary.innerHTML = `Nombre: ${nombre}<br>
   Apellido: ${apellido}<br>
   Celular: ${celular}   <br>
   Email: ${email}<br>
+  Motivo: ${motivoConsultaValue}<br>
   Comentario:${comentarios}`;
   
   // ocultar el primer paso y mostrar el segundo paso

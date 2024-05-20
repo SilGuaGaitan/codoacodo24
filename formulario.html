@@ -64,9 +64,20 @@
         <input type="text" class="form_input" id="celular" name="celular" required>
         <label for="email" class="form_label">Email:</label>
         <input type="email" class="form_input" id="email" name="email" required>
+        <label class="form_label">Motivo de su consulta:</label>
+        <div class="radio_options">
+         <label for="amor" class="radio_label">Amor</label>
+          <input type="radio" id="amor" name="motivo" value="amor">
+          <label for="dinero" class="radio_label">Dinero</label>
+          <input type="radio" id="dinero" name="motivo" value="dinero">
+          <label for="salud" class="radio_label">Salud</label>
+          <input type="radio" id="salud" name="motivo" value="salud">
+          
+        </div>
         <label for="textarea" class="form_label">Comentarios:</label>
         <textarea name="textarea" class="form_text" id="textarea" placeholder="Te leemos..."></textarea>
-
+        
+       
        <button type="button" id="button" class="button">Enviar</button>
        
       </form>
